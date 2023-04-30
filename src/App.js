@@ -8,6 +8,7 @@ import { AddTransaction } from './components/AddTransaction.js';
 import { GlobalProvider } from './context/GlobalState.js';
 
 import './App.css';
+import { Footer } from './components/Footer.js';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <TransactionList />
       <AddTransaction />
     </div>
+    <Footer />
     </GlobalProvider>
   );
 }
